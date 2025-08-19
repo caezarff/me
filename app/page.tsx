@@ -85,7 +85,7 @@ export default function Home() {
               transition={{ delay: 1.5, duration: 0.3 }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-4 text-white text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 1.5, duration: 0.8 }}
@@ -121,7 +121,7 @@ export default function Home() {
               transition={{ delay: 1.6, duration: 0.3 }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-4 text-white text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 1.6, duration: 0.8 }}
@@ -157,7 +157,7 @@ export default function Home() {
               transition={{ delay: 1.7, duration: 0.3 }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-4 text-white text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 1.7, duration: 0.8 }}
@@ -193,7 +193,7 @@ export default function Home() {
               transition={{ delay: 1.8, duration: 0.3 }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-4 text-white text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 1.8, duration: 0.8 }}
@@ -229,7 +229,7 @@ export default function Home() {
               transition={{ delay: 1.9, duration: 0.3 }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-4 text-white text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 1.9, duration: 0.8 }}
@@ -265,7 +265,7 @@ export default function Home() {
               transition={{ delay: 2.0, duration: 0.3 }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-4 text-white text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 2.0, duration: 0.8 }}
@@ -301,7 +301,7 @@ export default function Home() {
               transition={{ delay: 2.1, duration: 0.3 }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-4 text-white text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 2.1, duration: 0.8 }}
@@ -337,7 +337,7 @@ export default function Home() {
               transition={{ delay: 2.2, duration: 0.3 }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-4 text-white text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 2.2, duration: 0.8 }}
@@ -373,7 +373,7 @@ export default function Home() {
               transition={{ delay: 2.3, duration: 0.3 }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-4 text-white text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 2.3, duration: 0.8 }}
@@ -409,7 +409,7 @@ export default function Home() {
               transition={{ delay: 2.4, duration: 0.3 }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-4 text-white text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 2.4, duration: 0.8 }}
@@ -445,7 +445,7 @@ export default function Home() {
               transition={{ delay: 2.5, duration: 0.3 }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-4 text-white text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 2.5, duration: 0.8 }}
@@ -481,7 +481,7 @@ export default function Home() {
               transition={{ delay: 2.6, duration: 0.3 }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-4 text-white text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 2.6, duration: 0.8 }}
