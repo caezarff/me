@@ -47,7 +47,6 @@ export default function Home() {
                 backgroundColor: hoveredArrow === 1 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.4, duration: 0.5 }}
-              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
@@ -57,7 +56,6 @@ export default function Home() {
                 borderLeftColor: hoveredArrow === 1 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.4, duration: 0.3 }}
-              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
               className="ml-2 text-gray-400 text-sm cursor-pointer"
@@ -91,7 +89,6 @@ export default function Home() {
                 backgroundColor: hoveredArrow === 2 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.5, duration: 0.5 }}
-              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
@@ -101,7 +98,6 @@ export default function Home() {
                 borderLeftColor: hoveredArrow === 2 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.5, duration: 0.3 }}
-              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
               className="ml-2 text-gray-400 text-sm cursor-pointer"
@@ -135,7 +131,6 @@ export default function Home() {
                 backgroundColor: hoveredArrow === 3 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.6, duration: 0.5 }}
-              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
@@ -145,7 +140,6 @@ export default function Home() {
                 borderLeftColor: hoveredArrow === 3 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.6, duration: 0.3 }}
-              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
               className="ml-2 text-gray-400 text-sm cursor-pointer"
@@ -179,7 +173,6 @@ export default function Home() {
                 backgroundColor: hoveredArrow === 4 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.7, duration: 0.5 }}
-              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
@@ -189,7 +182,6 @@ export default function Home() {
                 borderLeftColor: hoveredArrow === 4 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.7, duration: 0.3 }}
-              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
               className="ml-2 text-gray-400 text-sm cursor-pointer"
@@ -223,7 +215,6 @@ export default function Home() {
                 backgroundColor: hoveredArrow === 5 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.8, duration: 0.5 }}
-              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
@@ -233,7 +224,6 @@ export default function Home() {
                 borderLeftColor: hoveredArrow === 5 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.8, duration: 0.3 }}
-              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
               className="ml-2 text-gray-400 text-sm cursor-pointer"
@@ -267,7 +257,6 @@ export default function Home() {
                 backgroundColor: hoveredArrow === 6 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.9, duration: 0.5 }}
-              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
@@ -277,7 +266,6 @@ export default function Home() {
                 borderLeftColor: hoveredArrow === 6 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.9, duration: 0.3 }}
-              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
               className="ml-2 text-gray-400 text-sm cursor-pointer"
@@ -311,7 +299,6 @@ export default function Home() {
                 backgroundColor: hoveredArrow === 7 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.0, duration: 0.5 }}
-              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
@@ -321,7 +308,6 @@ export default function Home() {
                 borderLeftColor: hoveredArrow === 7 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.0, duration: 0.3 }}
-              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
               className="ml-2 text-gray-400 text-sm cursor-pointer"
@@ -355,7 +341,6 @@ export default function Home() {
                 backgroundColor: hoveredArrow === 8 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.1, duration: 0.5 }}
-              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
@@ -365,7 +350,6 @@ export default function Home() {
                 borderLeftColor: hoveredArrow === 8 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.1, duration: 0.3 }}
-              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
               className="ml-2 text-gray-400 text-sm cursor-pointer"
@@ -399,7 +383,6 @@ export default function Home() {
                 backgroundColor: hoveredArrow === 9 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.2, duration: 0.5 }}
-              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
@@ -409,7 +392,6 @@ export default function Home() {
                 borderLeftColor: hoveredArrow === 9 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.2, duration: 0.3 }}
-              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
               className="ml-2 text-gray-400 text-sm cursor-pointer"
@@ -443,7 +425,6 @@ export default function Home() {
                 backgroundColor: hoveredArrow === 10 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.3, duration: 0.5 }}
-              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
@@ -453,7 +434,6 @@ export default function Home() {
                 borderLeftColor: hoveredArrow === 10 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.3, duration: 0.3 }}
-              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
               className="ml-2 text-gray-400 text-sm cursor-pointer"
@@ -487,7 +467,6 @@ export default function Home() {
                 backgroundColor: hoveredArrow === 11 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.4, duration: 0.5 }}
-              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
@@ -497,7 +476,6 @@ export default function Home() {
                 borderLeftColor: hoveredArrow === 11 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.4, duration: 0.3 }}
-              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
               className="ml-2 text-gray-400 text-sm cursor-pointer"
@@ -531,7 +509,6 @@ export default function Home() {
                 backgroundColor: hoveredArrow === 12 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.5, duration: 0.5 }}
-              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
@@ -541,7 +518,6 @@ export default function Home() {
                 borderLeftColor: hoveredArrow === 12 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.5, duration: 0.3 }}
-              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
               className="ml-2 text-gray-400 text-sm cursor-pointer"
@@ -575,7 +551,6 @@ export default function Home() {
                 backgroundColor: hoveredArrow === 13 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.6, duration: 0.5 }}
-              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
@@ -585,7 +560,6 @@ export default function Home() {
                 borderLeftColor: hoveredArrow === 13 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.6, duration: 0.3 }}
-              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
               className="ml-2 text-gray-400 text-sm cursor-pointer"
