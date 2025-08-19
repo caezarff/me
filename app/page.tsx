@@ -7,7 +7,7 @@ export default function Home() {
     <div className="min-h-screen bg-black flex items-center justify-center p-8">
       <div className="relative w-full max-w-4xl h-96 flex items-center justify-center">
         <motion.div
-          className="absolute left-0 top-1/2 -translate-y-1/2 text-white text-xl font-medium z-10 my-2"
+          className="absolute left-0 top-1/2 -translate-y-1/2 text-gray-300 text-xl font-medium z-10 my-2"
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -16,7 +16,7 @@ export default function Home() {
         </motion.div>
 
         <motion.div
-          className="absolute left-[6rem] top-1/2 -translate-y-1/2 h-px bg-white my-2.5"
+          className="absolute left-[6rem] top-1/2 -translate-y-1/2 h-px bg-gray-300 my-2.5"
           style={{ width: "calc(50% - 6rem)" }}
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
@@ -37,29 +37,30 @@ export default function Home() {
             transition={{ delay: 1.4, duration: 0.1 }}
           >
             <motion.div
-              className="w-32 h-px bg-white"
+              className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
               transition={{ delay: 1.4, duration: 0.5 }}
+              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
-              className="w-0 h-0 border-l-[6px] border-l-white border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
+              className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1.4, duration: 0.3 }}
+              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-2 text-gray-400 text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 1.4, duration: 0.8 }}
               whileHover={{
                 scale: 1.5,
-                opacity: 1,
+                color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
-                transition: { duration: 0.1 },
               }}
-              transition={{ duration: 0.2 }}
+              transition={{ duration: 0 }}
             >
               ui/ux
             </motion.span>
@@ -73,29 +74,30 @@ export default function Home() {
             transition={{ delay: 1.5, duration: 0.1 }}
           >
             <motion.div
-              className="w-32 h-px bg-white"
+              className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
               transition={{ delay: 1.5, duration: 0.5 }}
+              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
-              className="w-0 h-0 border-l-[6px] border-l-white border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
+              className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1.5, duration: 0.3 }}
+              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-2 text-gray-400 text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 1.5, duration: 0.8 }}
               whileHover={{
                 scale: 1.5,
-                opacity: 1,
+                color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
-                transition: { duration: 0.1 },
               }}
-              transition={{ duration: 0.2 }}
+              transition={{ duration: 0 }}
             >
               web
             </motion.span>
@@ -109,29 +111,30 @@ export default function Home() {
             transition={{ delay: 1.6, duration: 0.1 }}
           >
             <motion.div
-              className="w-32 h-px bg-white"
+              className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
               transition={{ delay: 1.6, duration: 0.5 }}
+              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
-              className="w-0 h-0 border-l-[6px] border-l-white border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
+              className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1.6, duration: 0.3 }}
+              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-2 text-gray-400 text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 1.6, duration: 0.8 }}
               whileHover={{
                 scale: 1.5,
-                opacity: 1,
+                color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
-                transition: { duration: 0.1 },
               }}
-              transition={{ duration: 0.2 }}
+              transition={{ duration: 0 }}
             >
               design
             </motion.span>
@@ -145,29 +148,30 @@ export default function Home() {
             transition={{ delay: 1.7, duration: 0.1 }}
           >
             <motion.div
-              className="w-32 h-px bg-white"
+              className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
               transition={{ delay: 1.7, duration: 0.5 }}
+              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
-              className="w-0 h-0 border-l-[6px] border-l-white border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
+              className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1.7, duration: 0.3 }}
+              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-2 text-gray-400 text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 1.7, duration: 0.8 }}
               whileHover={{
                 scale: 1.5,
-                opacity: 1,
+                color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
-                transition: { duration: 0.1 },
               }}
-              transition={{ duration: 0.2 }}
+              transition={{ duration: 0 }}
             >
               motion
             </motion.span>
@@ -181,29 +185,30 @@ export default function Home() {
             transition={{ delay: 1.8, duration: 0.1 }}
           >
             <motion.div
-              className="w-32 h-px bg-white"
+              className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
               transition={{ delay: 1.8, duration: 0.5 }}
+              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
-              className="w-0 h-0 border-l-[6px] border-l-white border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
+              className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1.8, duration: 0.3 }}
+              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-2 text-gray-400 text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 1.8, duration: 0.8 }}
               whileHover={{
                 scale: 1.5,
-                opacity: 1,
+                color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
-                transition: { duration: 0.1 },
               }}
-              transition={{ duration: 0.2 }}
+              transition={{ duration: 0 }}
             >
               flow
             </motion.span>
@@ -217,29 +222,30 @@ export default function Home() {
             transition={{ delay: 1.9, duration: 0.1 }}
           >
             <motion.div
-              className="w-32 h-px bg-white"
+              className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
               transition={{ delay: 1.9, duration: 0.5 }}
+              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
-              className="w-0 h-0 border-l-[6px] border-l-white border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
+              className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1.9, duration: 0.3 }}
+              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-2 text-gray-400 text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 1.9, duration: 0.8 }}
               whileHover={{
                 scale: 1.5,
-                opacity: 1,
+                color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
-                transition: { duration: 0.1 },
               }}
-              transition={{ duration: 0.2 }}
+              transition={{ duration: 0 }}
             >
               minimal
             </motion.span>
@@ -253,29 +259,30 @@ export default function Home() {
             transition={{ delay: 2.0, duration: 0.1 }}
           >
             <motion.div
-              className="w-32 h-px bg-white"
+              className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
               transition={{ delay: 2.0, duration: 0.5 }}
+              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
-              className="w-0 h-0 border-l-[6px] border-l-white border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
+              className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 2.0, duration: 0.3 }}
+              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-2 text-gray-400 text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 2.0, duration: 0.8 }}
               whileHover={{
                 scale: 1.5,
-                opacity: 1,
+                color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
-                transition: { duration: 0.1 },
               }}
-              transition={{ duration: 0.2 }}
+              transition={{ duration: 0 }}
             >
               code
             </motion.span>
@@ -289,29 +296,30 @@ export default function Home() {
             transition={{ delay: 2.1, duration: 0.1 }}
           >
             <motion.div
-              className="w-32 h-px bg-white"
+              className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
               transition={{ delay: 2.1, duration: 0.5 }}
+              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
-              className="w-0 h-0 border-l-[6px] border-l-white border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
+              className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 2.1, duration: 0.3 }}
+              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-2 text-gray-400 text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 2.1, duration: 0.8 }}
               whileHover={{
                 scale: 1.5,
-                opacity: 1,
+                color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
-                transition: { duration: 0.1 },
               }}
-              transition={{ duration: 0.2 }}
+              transition={{ duration: 0 }}
             >
               creative
             </motion.span>
@@ -325,29 +333,30 @@ export default function Home() {
             transition={{ delay: 2.2, duration: 0.1 }}
           >
             <motion.div
-              className="w-32 h-px bg-white"
+              className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
               transition={{ delay: 2.2, duration: 0.5 }}
+              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
-              className="w-0 h-0 border-l-[6px] border-l-white border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
+              className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 2.2, duration: 0.3 }}
+              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-2 text-gray-400 text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 2.2, duration: 0.8 }}
               whileHover={{
                 scale: 1.5,
-                opacity: 1,
+                color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
-                transition: { duration: 0.1 },
               }}
-              transition={{ duration: 0.2 }}
+              transition={{ duration: 0 }}
             >
               tech
             </motion.span>
@@ -361,29 +370,30 @@ export default function Home() {
             transition={{ delay: 2.3, duration: 0.1 }}
           >
             <motion.div
-              className="w-32 h-px bg-white"
+              className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
               transition={{ delay: 2.3, duration: 0.5 }}
+              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
-              className="w-0 h-0 border-l-[6px] border-l-white border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
+              className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 2.3, duration: 0.3 }}
+              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-2 text-gray-400 text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 2.3, duration: 0.8 }}
               whileHover={{
                 scale: 1.5,
-                opacity: 1,
+                color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
-                transition: { duration: 0.1 },
               }}
-              transition={{ duration: 0.2 }}
+              transition={{ duration: 0 }}
             >
               grid
             </motion.span>
@@ -397,29 +407,30 @@ export default function Home() {
             transition={{ delay: 2.4, duration: 0.1 }}
           >
             <motion.div
-              className="w-32 h-px bg-white"
+              className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
               transition={{ delay: 2.4, duration: 0.5 }}
+              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
-              className="w-0 h-0 border-l-[6px] border-l-white border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
+              className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 2.4, duration: 0.3 }}
+              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-2 text-gray-400 text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 2.4, duration: 0.8 }}
               whileHover={{
                 scale: 1.5,
-                opacity: 1,
+                color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
-                transition: { duration: 0.1 },
               }}
-              transition={{ duration: 0.2 }}
+              transition={{ duration: 0 }}
             >
               logic
             </motion.span>
@@ -433,29 +444,30 @@ export default function Home() {
             transition={{ delay: 2.5, duration: 0.1 }}
           >
             <motion.div
-              className="w-32 h-px bg-white"
+              className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
               transition={{ delay: 2.5, duration: 0.5 }}
+              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
-              className="w-0 h-0 border-l-[6px] border-l-white border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
+              className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 2.5, duration: 0.3 }}
+              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-2 text-gray-400 text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 2.5, duration: 0.8 }}
               whileHover={{
                 scale: 1.5,
-                opacity: 1,
+                color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
-                transition: { duration: 0.1 },
               }}
-              transition={{ duration: 0.2 }}
+              transition={{ duration: 0 }}
             >
               craft
             </motion.span>
@@ -469,29 +481,30 @@ export default function Home() {
             transition={{ delay: 2.6, duration: 0.1 }}
           >
             <motion.div
-              className="w-32 h-px bg-white"
+              className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
               transition={{ delay: 2.6, duration: 0.5 }}
+              whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
-              className="w-0 h-0 border-l-[6px] border-l-white border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
+              className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 2.6, duration: 0.3 }}
+              whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
             <motion.span
-              className="ml-2 text-white text-sm cursor-pointer"
+              className="ml-2 text-gray-400 text-sm cursor-pointer"
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 2.6, duration: 0.8 }}
               whileHover={{
                 scale: 1.5,
-                opacity: 1,
+                color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
-                transition: { duration: 0.1 },
               }}
-              transition={{ duration: 0.2 }}
+              transition={{ duration: 0 }}
             >
               build
             </motion.span>
