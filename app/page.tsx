@@ -1,8 +1,11 @@
 "use client"
 
 import { motion } from "framer-motion"
+import { useState } from "react"
 
 export default function Home() {
+  const [hoveredArrow, setHoveredArrow] = useState<number | null>(null)
+
   return (
     <div className="min-h-screen bg-black flex items-center justify-center p-8">
       <div className="relative w-full max-w-4xl h-96 flex items-center justify-center">
@@ -39,14 +42,20 @@ export default function Home() {
             <motion.div
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
-              animate={{ scaleX: 1 }}
+              animate={{
+                scaleX: 1,
+                backgroundColor: hoveredArrow === 1 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 1.4, duration: 0.5 }}
               whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              animate={{
+                opacity: 1,
+                borderLeftColor: hoveredArrow === 1 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 1.4, duration: 0.3 }}
               whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
@@ -61,6 +70,8 @@ export default function Home() {
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
               transition={{ duration: 0 }}
+              onHoverStart={() => setHoveredArrow(1)}
+              onHoverEnd={() => setHoveredArrow(null)}
             >
               ui/ux
             </motion.span>
@@ -76,14 +87,20 @@ export default function Home() {
             <motion.div
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
-              animate={{ scaleX: 1 }}
+              animate={{
+                scaleX: 1,
+                backgroundColor: hoveredArrow === 2 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 1.5, duration: 0.5 }}
               whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              animate={{
+                opacity: 1,
+                borderLeftColor: hoveredArrow === 2 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 1.5, duration: 0.3 }}
               whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
@@ -98,6 +115,8 @@ export default function Home() {
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
               transition={{ duration: 0 }}
+              onHoverStart={() => setHoveredArrow(2)}
+              onHoverEnd={() => setHoveredArrow(null)}
             >
               web
             </motion.span>
@@ -113,14 +132,20 @@ export default function Home() {
             <motion.div
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
-              animate={{ scaleX: 1 }}
+              animate={{
+                scaleX: 1,
+                backgroundColor: hoveredArrow === 3 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 1.6, duration: 0.5 }}
               whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              animate={{
+                opacity: 1,
+                borderLeftColor: hoveredArrow === 3 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 1.6, duration: 0.3 }}
               whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
@@ -135,6 +160,8 @@ export default function Home() {
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
               transition={{ duration: 0 }}
+              onHoverStart={() => setHoveredArrow(3)}
+              onHoverEnd={() => setHoveredArrow(null)}
             >
               design
             </motion.span>
@@ -150,14 +177,20 @@ export default function Home() {
             <motion.div
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
-              animate={{ scaleX: 1 }}
+              animate={{
+                scaleX: 1,
+                backgroundColor: hoveredArrow === 4 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 1.7, duration: 0.5 }}
               whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              animate={{
+                opacity: 1,
+                borderLeftColor: hoveredArrow === 4 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 1.7, duration: 0.3 }}
               whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
@@ -172,6 +205,8 @@ export default function Home() {
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
               transition={{ duration: 0 }}
+              onHoverStart={() => setHoveredArrow(4)}
+              onHoverEnd={() => setHoveredArrow(null)}
             >
               motion
             </motion.span>
@@ -187,14 +222,20 @@ export default function Home() {
             <motion.div
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
-              animate={{ scaleX: 1 }}
+              animate={{
+                scaleX: 1,
+                backgroundColor: hoveredArrow === 5 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 1.8, duration: 0.5 }}
               whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              animate={{
+                opacity: 1,
+                borderLeftColor: hoveredArrow === 5 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 1.8, duration: 0.3 }}
               whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
@@ -209,6 +250,8 @@ export default function Home() {
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
               transition={{ duration: 0 }}
+              onHoverStart={() => setHoveredArrow(5)}
+              onHoverEnd={() => setHoveredArrow(null)}
             >
               flow
             </motion.span>
@@ -224,14 +267,20 @@ export default function Home() {
             <motion.div
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
-              animate={{ scaleX: 1 }}
+              animate={{
+                scaleX: 1,
+                backgroundColor: hoveredArrow === 6 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 1.9, duration: 0.5 }}
               whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              animate={{
+                opacity: 1,
+                borderLeftColor: hoveredArrow === 6 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 1.9, duration: 0.3 }}
               whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
@@ -246,6 +295,8 @@ export default function Home() {
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
               transition={{ duration: 0 }}
+              onHoverStart={() => setHoveredArrow(6)}
+              onHoverEnd={() => setHoveredArrow(null)}
             >
               minimal
             </motion.span>
@@ -261,14 +312,20 @@ export default function Home() {
             <motion.div
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
-              animate={{ scaleX: 1 }}
+              animate={{
+                scaleX: 1,
+                backgroundColor: hoveredArrow === 7 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 2.0, duration: 0.5 }}
               whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              animate={{
+                opacity: 1,
+                borderLeftColor: hoveredArrow === 7 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 2.0, duration: 0.3 }}
               whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
@@ -283,6 +340,8 @@ export default function Home() {
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
               transition={{ duration: 0 }}
+              onHoverStart={() => setHoveredArrow(7)}
+              onHoverEnd={() => setHoveredArrow(null)}
             >
               code
             </motion.span>
@@ -298,14 +357,20 @@ export default function Home() {
             <motion.div
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
-              animate={{ scaleX: 1 }}
+              animate={{
+                scaleX: 1,
+                backgroundColor: hoveredArrow === 8 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 2.1, duration: 0.5 }}
               whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              animate={{
+                opacity: 1,
+                borderLeftColor: hoveredArrow === 8 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 2.1, duration: 0.3 }}
               whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
@@ -320,6 +385,8 @@ export default function Home() {
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
               transition={{ duration: 0 }}
+              onHoverStart={() => setHoveredArrow(8)}
+              onHoverEnd={() => setHoveredArrow(null)}
             >
               creative
             </motion.span>
@@ -335,14 +402,20 @@ export default function Home() {
             <motion.div
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
-              animate={{ scaleX: 1 }}
+              animate={{
+                scaleX: 1,
+                backgroundColor: hoveredArrow === 9 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 2.2, duration: 0.5 }}
               whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              animate={{
+                opacity: 1,
+                borderLeftColor: hoveredArrow === 9 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 2.2, duration: 0.3 }}
               whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
@@ -357,6 +430,8 @@ export default function Home() {
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
               transition={{ duration: 0 }}
+              onHoverStart={() => setHoveredArrow(9)}
+              onHoverEnd={() => setHoveredArrow(null)}
             >
               tech
             </motion.span>
@@ -372,14 +447,20 @@ export default function Home() {
             <motion.div
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
-              animate={{ scaleX: 1 }}
+              animate={{
+                scaleX: 1,
+                backgroundColor: hoveredArrow === 10 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 2.3, duration: 0.5 }}
               whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              animate={{
+                opacity: 1,
+                borderLeftColor: hoveredArrow === 10 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 2.3, duration: 0.3 }}
               whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
@@ -394,6 +475,8 @@ export default function Home() {
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
               transition={{ duration: 0 }}
+              onHoverStart={() => setHoveredArrow(10)}
+              onHoverEnd={() => setHoveredArrow(null)}
             >
               grid
             </motion.span>
@@ -409,14 +492,20 @@ export default function Home() {
             <motion.div
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
-              animate={{ scaleX: 1 }}
+              animate={{
+                scaleX: 1,
+                backgroundColor: hoveredArrow === 11 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 2.4, duration: 0.5 }}
               whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              animate={{
+                opacity: 1,
+                borderLeftColor: hoveredArrow === 11 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 2.4, duration: 0.3 }}
               whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
@@ -431,6 +520,8 @@ export default function Home() {
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
               transition={{ duration: 0 }}
+              onHoverStart={() => setHoveredArrow(11)}
+              onHoverEnd={() => setHoveredArrow(null)}
             >
               logic
             </motion.span>
@@ -446,14 +537,20 @@ export default function Home() {
             <motion.div
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
-              animate={{ scaleX: 1 }}
+              animate={{
+                scaleX: 1,
+                backgroundColor: hoveredArrow === 12 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 2.5, duration: 0.5 }}
               whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              animate={{
+                opacity: 1,
+                borderLeftColor: hoveredArrow === 12 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 2.5, duration: 0.3 }}
               whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
@@ -468,6 +565,8 @@ export default function Home() {
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
               transition={{ duration: 0 }}
+              onHoverStart={() => setHoveredArrow(12)}
+              onHoverEnd={() => setHoveredArrow(null)}
             >
               craft
             </motion.span>
@@ -483,14 +582,20 @@ export default function Home() {
             <motion.div
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
-              animate={{ scaleX: 1 }}
+              animate={{
+                scaleX: 1,
+                backgroundColor: hoveredArrow === 13 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 2.6, duration: 0.5 }}
               whileHover={{ scaleX: 1.2, backgroundColor: "#ffffff" }}
             ></motion.div>
             <motion.div
               className="w-0 h-0 border-l-[6px] border-l-gray-400 border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent"
               initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              animate={{
+                opacity: 1,
+                borderLeftColor: hoveredArrow === 13 ? "#ffffff" : "#9ca3af",
+              }}
               transition={{ delay: 2.6, duration: 0.3 }}
               whileHover={{ borderLeftColor: "#ffffff" }}
             ></motion.div>
@@ -505,6 +610,8 @@ export default function Home() {
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
               transition={{ duration: 0 }}
+              onHoverStart={() => setHoveredArrow(13)}
+              onHoverEnd={() => setHoveredArrow(null)}
             >
               build
             </motion.span>
