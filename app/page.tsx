@@ -43,7 +43,7 @@ export default function Home() {
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{
-                scaleX: 1,
+                scaleX: hoveredArrow === 1 ? 1.2 : 1,
                 backgroundColor: hoveredArrow === 1 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.4, duration: 0.5 }}
@@ -69,7 +69,6 @@ export default function Home() {
                 color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
-              transition={{ duration: 0 }}
               onHoverStart={() => setHoveredArrow(1)}
               onHoverEnd={() => setHoveredArrow(null)}
             >
@@ -88,7 +87,7 @@ export default function Home() {
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{
-                scaleX: 1,
+                scaleX: hoveredArrow === 2 ? 1.2 : 1,
                 backgroundColor: hoveredArrow === 2 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.5, duration: 0.5 }}
@@ -114,7 +113,6 @@ export default function Home() {
                 color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
-              transition={{ duration: 0 }}
               onHoverStart={() => setHoveredArrow(2)}
               onHoverEnd={() => setHoveredArrow(null)}
             >
@@ -133,7 +131,7 @@ export default function Home() {
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{
-                scaleX: 1,
+                scaleX: hoveredArrow === 3 ? 1.2 : 1,
                 backgroundColor: hoveredArrow === 3 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.6, duration: 0.5 }}
@@ -159,7 +157,6 @@ export default function Home() {
                 color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
-              transition={{ duration: 0 }}
               onHoverStart={() => setHoveredArrow(3)}
               onHoverEnd={() => setHoveredArrow(null)}
             >
@@ -178,7 +175,7 @@ export default function Home() {
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{
-                scaleX: 1,
+                scaleX: hoveredArrow === 4 ? 1.2 : 1,
                 backgroundColor: hoveredArrow === 4 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.7, duration: 0.5 }}
@@ -204,7 +201,6 @@ export default function Home() {
                 color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
-              transition={{ duration: 0 }}
               onHoverStart={() => setHoveredArrow(4)}
               onHoverEnd={() => setHoveredArrow(null)}
             >
@@ -223,7 +219,7 @@ export default function Home() {
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{
-                scaleX: 1,
+                scaleX: hoveredArrow === 5 ? 1.2 : 1,
                 backgroundColor: hoveredArrow === 5 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.8, duration: 0.5 }}
@@ -249,7 +245,6 @@ export default function Home() {
                 color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
-              transition={{ duration: 0 }}
               onHoverStart={() => setHoveredArrow(5)}
               onHoverEnd={() => setHoveredArrow(null)}
             >
@@ -268,7 +263,7 @@ export default function Home() {
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{
-                scaleX: 1,
+                scaleX: hoveredArrow === 6 ? 1.2 : 1,
                 backgroundColor: hoveredArrow === 6 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 1.9, duration: 0.5 }}
@@ -294,7 +289,6 @@ export default function Home() {
                 color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
-              transition={{ duration: 0 }}
               onHoverStart={() => setHoveredArrow(6)}
               onHoverEnd={() => setHoveredArrow(null)}
             >
@@ -313,7 +307,7 @@ export default function Home() {
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{
-                scaleX: 1,
+                scaleX: hoveredArrow === 7 ? 1.2 : 1,
                 backgroundColor: hoveredArrow === 7 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.0, duration: 0.5 }}
@@ -339,7 +333,6 @@ export default function Home() {
                 color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
-              transition={{ duration: 0 }}
               onHoverStart={() => setHoveredArrow(7)}
               onHoverEnd={() => setHoveredArrow(null)}
             >
@@ -358,7 +351,7 @@ export default function Home() {
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{
-                scaleX: 1,
+                scaleX: hoveredArrow === 8 ? 1.2 : 1,
                 backgroundColor: hoveredArrow === 8 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.1, duration: 0.5 }}
@@ -384,7 +377,6 @@ export default function Home() {
                 color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
-              transition={{ duration: 0 }}
               onHoverStart={() => setHoveredArrow(8)}
               onHoverEnd={() => setHoveredArrow(null)}
             >
@@ -403,7 +395,7 @@ export default function Home() {
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{
-                scaleX: 1,
+                scaleX: hoveredArrow === 9 ? 1.2 : 1,
                 backgroundColor: hoveredArrow === 9 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.2, duration: 0.5 }}
@@ -429,7 +421,6 @@ export default function Home() {
                 color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
-              transition={{ duration: 0 }}
               onHoverStart={() => setHoveredArrow(9)}
               onHoverEnd={() => setHoveredArrow(null)}
             >
@@ -448,7 +439,7 @@ export default function Home() {
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{
-                scaleX: 1,
+                scaleX: hoveredArrow === 10 ? 1.2 : 1,
                 backgroundColor: hoveredArrow === 10 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.3, duration: 0.5 }}
@@ -474,7 +465,6 @@ export default function Home() {
                 color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
-              transition={{ duration: 0 }}
               onHoverStart={() => setHoveredArrow(10)}
               onHoverEnd={() => setHoveredArrow(null)}
             >
@@ -493,7 +483,7 @@ export default function Home() {
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{
-                scaleX: 1,
+                scaleX: hoveredArrow === 11 ? 1.2 : 1,
                 backgroundColor: hoveredArrow === 11 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.4, duration: 0.5 }}
@@ -519,7 +509,6 @@ export default function Home() {
                 color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
-              transition={{ duration: 0 }}
               onHoverStart={() => setHoveredArrow(11)}
               onHoverEnd={() => setHoveredArrow(null)}
             >
@@ -538,7 +527,7 @@ export default function Home() {
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{
-                scaleX: 1,
+                scaleX: hoveredArrow === 12 ? 1.2 : 1,
                 backgroundColor: hoveredArrow === 12 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.5, duration: 0.5 }}
@@ -564,7 +553,6 @@ export default function Home() {
                 color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
-              transition={{ duration: 0 }}
               onHoverStart={() => setHoveredArrow(12)}
               onHoverEnd={() => setHoveredArrow(null)}
             >
@@ -583,7 +571,7 @@ export default function Home() {
               className="w-32 h-px bg-gray-400"
               initial={{ scaleX: 0 }}
               animate={{
-                scaleX: 1,
+                scaleX: hoveredArrow === 13 ? 1.2 : 1,
                 backgroundColor: hoveredArrow === 13 ? "#ffffff" : "#9ca3af",
               }}
               transition={{ delay: 2.6, duration: 0.5 }}
@@ -609,7 +597,6 @@ export default function Home() {
                 color: "#ffffff",
                 textShadow: "0 0 8px rgba(255, 255, 255, 0.8)",
               }}
-              transition={{ duration: 0 }}
               onHoverStart={() => setHoveredArrow(13)}
               onHoverEnd={() => setHoveredArrow(null)}
             >
